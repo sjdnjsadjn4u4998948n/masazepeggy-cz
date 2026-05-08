@@ -16,7 +16,7 @@
     <meta name="robots" content="index, follow">
  <link rel="canonical" href="https://masazepeggy.cz/">
          <link rel="alternate" hreflang="x-default" href="https://masazepeggy.cz/" />
-<link rel="alternate" hreflang="cs-CZ" href="https://zahranicni-casina.co.cz/cs-cz/" />        <meta property="og:title" content="Zahraniční casina pro české hráče 2026 – top 10 s bonusem bez vkladu">
+<link rel="alternate" hreflang="cs-CZ" href="https://zahranicnicasino.gr.com/cs-cz/" />        <meta property="og:title" content="Zahraniční casina pro české hráče 2026 – top 10 s bonusem bez vkladu">
     <meta property="og:description" content="Přehled 10 zahraničních i českých casin 2026. Bonusy bez vkladu od 50 do 250 Kč, licence Curacao i MF ČR, výběry až 450 000 Kč/den. Porovnejte reálný výběrový potenciál.">
     <meta property="og:url" content="https://masazepeggy.cz/">
             <meta property="og:image" content="../img/8f5a0fac22ab64304ba7debee0f47e82.webp">
@@ -105,6 +105,9 @@
                 li strong{
             display: inline-block;
         }
+        header a {
+            color:white!important;
+        }
         a {
             color: var(--h-06e4f7);
         }
@@ -114,15 +117,15 @@
         }
         .r-dc00b4{
                position: fixed;
-    bottom: 30px;
-    right: 10px;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #0000007d;
-    border-radius: 50%;
+                bottom: 30px;
+                right: 10px;
+                width: 35px;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #0000007d;
+                border-radius: 50%;
         }
         .r-c876cb img{
             max-width: 280px;
@@ -141,20 +144,6 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-
-        .c-c99ba7 {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            background: #2d2878;
-            border-bottom: 1px solid var(--r-e61bc4);
-            padding: 9px 20px;
-            z-index: 1000;
-            align-items: center;
-            justify-content: space-between;
-        }   
 
         .t-287fc3 {
             width: 30px;
@@ -245,6 +234,7 @@
 
         .f-8eb76a img {
             max-height: 65px;
+            max-width: 41vw;
         }
 
         .c-142d9f {
@@ -257,8 +247,10 @@
 
         .c-142d9f li a {
             text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s;
+            font-weight: 500;
+            font-size: .9em;
+            white-space: nowrap;
+            transition: opacity .2s;
         }
 
         .c-142d9f li a:hover {
@@ -1117,12 +1109,7 @@ padding: 0!important;
             width: 100px;
             height: auto;
         }
-        @media screen and (max-width: 768px) {
- .z-f78405 {
-            width: 75px;
-            height: auto;
-        }
-        }
+       
         @keyframes bounceGift {
             0%, 20%, 50%, 80%, 100% {
                 transform: translateY(0);
@@ -1246,7 +1233,36 @@ padding: 0!important;
             transform: scale(1.03);
             opacity: 0.9;
         }
-
+ @media screen and (max-width: 768px) {
+ .z-f78405 {
+            width: 75px;
+            height: auto;
+        }
+        .k-81ea1f{
+            flex-direction:row!important;
+            margin:10px!important;
+    padding: 10px 0!important;
+        }
+        .k-81ea1f img{
+            width: 35px;
+            height: 35px;
+        }
+        .v-03bedd{
+             display: none;
+        }
+         .e-815f1b {
+            display: none;
+        }
+        .q-da38de{
+            display: none;
+        }
+        .b-7f3d50{
+                display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    transform: scale(0.9);
+        }
+    }
        
                 .v-2f11ff {
              background: ;
@@ -1654,17 +1670,9 @@ max-width: 70px;
             margin-top: 0;
             margin-bottom:0;
         }
-            .c-c99ba7 {
-                display: flex !important;
-            }
+
             
-            header.v-9a6bc8 {
-                display: none;
-            }
             
-            .w-183bf2 {
-                padding-top: 80px;
-            }
         }
         @media screen and (max-width:1200px){
              table {
@@ -2016,155 +2024,139 @@ max-width: 70px;
         }
 
         
-        .x-42b9cf {
-            display: grid;
-            grid-template-columns: 170px 1fr auto;
-            align-items: center;
+        .g-98ed40 {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 14px;
+            margin: 6px 0;
+        }
+
+        /* ── Header ── */
+        .e-a38598 th {
+            padding: 12px 10px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: #000000;
+            background: #f6f5fd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .e-a38598 th:first-child { border-radius: 10px 0 0 10px; padding-left: 20px; text-align: left; }
+        .e-a38598 th:last-child  { border-radius: 0 10px 10px 0; }
+        @media (max-width: 768px) { .e-a38598 { display: none; } }
+
+        /* ── Card tbody ── */
+        .x-42b9cf { filter: drop-shadow(0 2px 8px rgba(0,0,0,0.10)); }
+        .x-42b9cf td {
             background: #f6f5fd;
             color: #000000;
-            border-radius: 30px;
-            margin-bottom: 14px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            border: 2px solid transparent;
-            min-height: 100px;
+            vertical-align: middle;
+            border-top: 2px solid var(--v4bc, transparent);
+            border-bottom: 2px solid var(--v4bc, transparent);
         }
+        .x-42b9cf td:first-child { border-left: 2px solid var(--v4bc, transparent); }
+        .x-42b9cf td:last-child  { border-right: 2px solid var(--v4bc, transparent); }
+        .g-565b81 td { border-top: none; }
+        /* rounded corners */
+        .x-42b9cf tr:first-child td:first-child { border-top-left-radius: 30px; }
+        .x-42b9cf tr:first-child td:last-child  { border-top-right-radius: 30px; }
+        .x-42b9cf tr:last-child  td:first-child { border-bottom-left-radius: 30px; }
+        .x-42b9cf tr:last-child  td:last-child  { border-bottom-right-radius: 30px; }
+
+        /* ── Col 1 — № badge ── */
         .k-da76a2 {
-            position: absolute;
-            top: 0;
-            left: 5px;
-            z-index: 2;
-            line-height: 1;
+            width: 48px;
+            text-align: center;
+            padding: 20px 4px 20px 12px;
         }
-        .k-da76a2 img {
-            width: 32px;
-            height: 38px;
-            display: block;
-        }
+        .k-da76a2 img { width: 32px; height: 38px; display: block; margin: 0 auto; }
         .k-da76a2 span {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #4a45c9;
-            color: #ffffff;
-            width: 26px;
-            height: 26px;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 13px;
+            display: flex; align-items: center; justify-content: center;
+            background: #4a45c9; color: #ffffff;
+            width: 26px; height: 26px; border-radius: 8px;
+            font-weight: 700; font-size: 13px; margin: 0 auto;
         }
+
+        /* ── Col 2 — Logo ── */
         .f-b9fe19 {
-            background: #0e1028;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 24px 16px;
-            height: 100%;
-            min-height: 100px;
+            width: 155px;
+            text-align: center;
+            padding: 20px 16px;
         }
         .f-b9fe19 img {
-            max-height: 105px;
-            max-width: 140px;
-            object-fit: contain;
+            max-height: 90px; max-width: 130px;
+            object-fit: contain; display: block; margin: 0 auto;
         }
-        .h-9823b7 {
-            padding: 14px 22px;
-            display: grid;
-            grid-template-columns: 0.5fr 1fr 1fr;
-            gap: 20px;
-            align-items: center;
+
+        /* ── Col 3 — Name + Rating ── */
+        .p-accd3f {
+            width: 160px;
+            padding: 16px 14px;
+            vertical-align: middle;
         }
         .g-8a13dd {
-            font-size: 17px;
-            font-weight: 700;
+            font-size: 16px; font-weight: 700;
             color: #000000;
+            margin-bottom: 6px;
         }
         .y-37cea9 {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 13px;
-            color: #000000;
+            display: flex; align-items: center; gap: 4px;
+            font-size: 13px; color: #000000;
+            flex-wrap: nowrap;
         }
-        .v-c1d424 {
-            font-size: 14px;
-            font-weight: 700;
+        .y-37cea9 span { font-weight: 600; white-space: nowrap; }
+
+        /* ── Col 4 — Bonus ── */
+        .v-c1d424 { padding: 14px 14px; }
+        .v-c1d424 > div {
+            font-size: 14px; font-weight: 700;
             color: #000000;
             border: 1px solid #2d2878;
-            border-radius: 6px;
-            padding: 5px 10px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            justify-content: center;
+            border-radius: 30px;
+            padding: 8px 14px;
+            display: flex; align-items: center; gap: 8px; justify-content: center;
             background: rgba(0,0,0,0.04);
-            height: fit-content;
-            border-radius: 30px;
         }
-        .f-ddd8ca {
-            list-style: none;
-            padding: 6px 10px;
-            margin: 4px 0 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2px 14px;
-            position: relative;
-            border-radius: 30px;
-            overflow: hidden;
+
+        /* ── Col 5 — Description ── */
+        .f-ddd8ca { padding: 14px 14px; }
+                .f-ddd8ca ul {
+            list-style: none; padding: 4px 0; margin: 0;
+            display: flex; flex-wrap: wrap; gap: 4px 10px;
         }
-        .f-ddd8ca li::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: #4a45c9;
-            opacity: 0.12;
-            z-index: 0;
-            border-radius: 6px;
-        }
-        .f-ddd8ca li {
-            font-size: 12px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            padding: 3px 5px;
+        .f-ddd8ca ul li {
+            font-size: 12px; display: flex; align-items: center; gap: 4px;
+            padding: 3px 8px;
             color: #000000;
-            position: relative;
-            z-index: 1;
+            background: rgba(74,69,201,0.14);
             border-radius: 30px;
         }
-        .f-ddd8ca li::before {
+        .f-ddd8ca ul li::before {
             content: "✔";
             color: ;
-            font-weight: bold;
-            font-size: 13px;
+            font-weight: bold; font-size: 13px;
         }
+
+        /* ── Col 6 — Button ── */
         .b-5bdcbc {
-            padding: 14px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            width: 165px;
+            padding: 14px 16px;
+            text-align: center;
         }
         .b-5bdcbc a {
-            display: block;
-            padding: 14px 30px;
+            display: block; padding: 13px 22px;
             background: #4a45c9;
             color: #ffffff !important;
             font-weight: 700;
             border-radius: 30px;
-            text-decoration: none;
-            font-size: 15px;
-            text-transform: uppercase;
-            text-align: center;
-            transition: 0.3s;
-            white-space: nowrap;
-            position: relative;
-            overflow: hidden;
+            text-decoration: none; font-size: 14px;
+            text-transform: uppercase; text-align: center;
+            transition: 0.3s; white-space: nowrap;
+            position: relative; overflow: hidden;
         }
         .b-5bdcbc a::after {
             content: '';
-            position: absolute;
-            top: 0; left: 0;
+            position: absolute; top: 0; left: 0;
             width: 45%; height: 100%;
             background: linear-gradient(to right, transparent, rgba(255,255,255,0.28), transparent);
             animation: h-a30bafshimmer 2.8s ease-in-out infinite;
@@ -2172,110 +2164,48 @@ max-width: 70px;
             pointer-events: none;
         }
         .b-5bdcbc a:hover { transform: scale(1.03); }
-        @media (max-width: 1024px) {
-            .h-9823b7 {
-                grid-template-columns: 1fr;
-            }
-            .k-da76a2 {
-                left: 20px;
-            }
-            .x-42b9cf {
-                grid-template-columns: 1fr;
-            }
-            .f-b9fe19 {
-                min-height: 80px;
-                padding: 16px;
-            }
-            .b-5bdcbc {
-                padding-bottom: 16px;
-            }
-            .b-5bdcbc a {
-                width: 100%;
-            }
-        }
 
- 
-        .g-98ed40 {
-            width: 100%;
-            margin: 20px 0;
+        /* ── Footer row (payments) ── */
+        .g-565b81 td {
+            padding: 8px 16px;
+            border-top: 1px solid #2d2878 !important;
         }
-       
-        .e-a38598 {
-            display: grid;
-            grid-template-columns: 10px 130px .5fr .8fr 150px 0.3fr;
-            gap: 20px;
-            align-items: center;
-            background: #f6f5fd;
-            color: #000000;
-            border-radius: 10px;
-            padding: 15px 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        .e-a38598 > div {
-            padding: 0 10px;
-            text-align: center;
-            font-size: 13px;
-        }
-        @media (max-width: 768px) {
-            .e-a38598 { display: none; }
-        }
-
-       
-        .g-565b81 {
-            grid-column: 1 / -1;
-            border-top: 1px solid #2d2878;
-            display: flex;
-            align-items: center;
-            padding: 6px 16px;
-            gap: 12px;
-            font-size: 10.5px;
-            color: #000000;
+        .g-565b81 td > div {
+            display: flex; align-items: center; gap: 12px;
+            font-size: 10.5px; color: #000000;
         }
         .m-387279 {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            flex: 1;
-            flex-wrap: wrap;
+            display: flex; align-items: center; gap: 6px; flex: 1; flex-wrap: wrap;
         }
         .m-387279 img {
-            height: 18px;
-            width: auto;
-            max-width: 42px;
-            object-fit: contain;
-            filter: grayscale(30%);
+            height: 18px; width: auto; max-width: 42px;
+            object-fit: contain; filter: grayscale(30%);
         }
         .t-d32f24 {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 11px;
+            display: flex; align-items: center; gap: 5px; font-size: 11px;
         }
-        .e-e009f7 {
-            position: relative;
-            display: inline-flex;
-            flex-shrink: 0;
-        }
-        .e-e009f7 img {
-            width: 22px;
-            height: 22px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+        .e-e009f7 { position: relative; display: inline-flex; flex-shrink: 0; }
+        .e-e009f7 img { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; }
         .f-8d1c60 {
-            position: absolute;
-            bottom: -2px;
-            right: -3px;
-            background: #1d9bf0;
-            border-radius: 50%;
-            width: 12px;
-            height: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            position: absolute; bottom: -2px; right: -3px;
+            background: #1d9bf0; border-radius: 50%; width: 12px; height: 12px;
+            display: flex; align-items: center; justify-content: center;
             border: 1.5px solid rgba(255,255,255,0.9);
+        }
+
+        /* ── Mobile ── */
+        @media (max-width: 768px) {
+            .g-98ed40,
+            .x-42b9cf,
+            .x-42b9cf tr,
+            .x-42b9cf td { display: block; width: 100% !important; box-sizing: border-box; }
+            .x-42b9cf td { border-left: 2px solid var(--v4bc, transparent) !important; border-right: 2px solid var(--v4bc, transparent) !important; border-top: none !important; border-bottom: none !important; }
+            .x-42b9cf tr:first-child td:first-child { border-top: 2px solid var(--v4bc, transparent) !important; border-top-right-radius: 30px; }
+            .x-42b9cf tr:last-child  td:last-child  { border-bottom: 2px solid var(--v4bc, transparent) !important; border-bottom-right-radius: 30px; }
+            .k-da76a2 { padding: 12px 16px; }
+            .f-b9fe19  { width: 100%; }
+            .b-5bdcbc   { padding: 12px 16px; }
+            .b-5bdcbc a { width: 100%; }
         }
     </style>
     
@@ -2302,19 +2232,10 @@ max-width: 70px;
 
     <body>
         
-        <div class="c-c99ba7">
-            <div class="a-64bb3b">
-                                    <div>
-                        <img src="../img/8f5a0fac22ab64304ba7debee0f47e82.webp" alt="Zahraniční casina pro české hráče 2026 – 10 ověřených operátorů s bonusy bez vkladu">
-                    </div>
-                            </div>
-            <div class="t-287fc3">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
 
+
+        <ul class="c-142d9f n-17a12c">
+                                </ul>
 
         <header class="v-9a6bc8">
             <div class="w-a8256b">
@@ -2344,7 +2265,7 @@ max-width: 70px;
                                                     | <a href="mailto:matej.pospisil@masazepeggy.cz" rel="nofollow noopener" title="matej.pospisil@masazepeggy.cz"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
                         </svg></a>
-                                                        <br><span>Naposledy aktualizováno: 5 května 2026</span>
+                                                        <br><span>Naposledy aktualizováno: 8 května 2026</span>
         </div>
     </div>
                                                                                                 <div class="s-b20a2a">
@@ -2679,8 +2600,8 @@ max-width: 70px;
     "@type": "WebPage",
     "name": "Zahraniční casina pro české hráče 2026 – 10 ověřených operátorů s bonusy bez vkladu",
     "description": "Bonus 250 Kč bez vkladu zní lákavě — dokud nenarazíte na podmínky, které jej prakticky nevyplatitelný. Podle zprávy eCOGRA z roku 2024 jsou právě omezení výběru po splnění obratu n",
-    "datePublished": "2026-05-05",
-    "dateModified": "2026-05-05",
+    "datePublished": "2026-05-08",
+    "dateModified": "2026-05-08",
     "author": {
         "@type": "Person",
         "name": "Matěj Pospíšil"
@@ -2696,7 +2617,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "QuickWin",
-                    "description": "100% AŽ DO 12 500 KČ + 200 FS"
+                    "description": "100% bonus do 12 500 Kč a 200 free spinů!"
                 }
             },
             {
@@ -2705,7 +2626,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Stonevegas",
-                    "description": "100% až do 12 500 Kč + 200 FS"
+                    "description": "12 500 Kč + 200 točení navíc!"
                 }
             },
             {
@@ -2714,7 +2635,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Felicebet Casino",
-                    "description": "Až Výše 65.000 Kč + 300 Spinů Zdarma"
+                    "description": "Až Do Výše 65.000 Kč + 300 FS"
                 }
             },
             {
@@ -2723,7 +2644,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Lizaro",
-                    "description": "250% až 75 000 Kč + 350 FS!"
+                    "description": "250% až 75 000 Kč + 350 točení zdarma!"
                 }
             },
             {
@@ -2732,7 +2653,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "Casea",
-                    "description": "250% až do 75 000 Kč + 350 FS"
+                    "description": "250% do 75 000 Kč + 350 FS"
                 }
             },
             {
@@ -2741,7 +2662,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "BigClash",
-                    "description": "100% až 12 500 Kč + 200 FS + 1 Bonus Crab"
+                    "description": "100% až do 12 500 Kč + 200 FS + Bonus Crab"
                 }
             },
             {
@@ -2750,7 +2671,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "GoldSpin",
-                    "description": "100 % až do $2 250 + 100 FS"
+                    "description": "100% až do částky $2250 + 100 free spinů"
                 }
             },
             {
@@ -2759,7 +2680,7 @@ max-width: 70px;
                 "item": {
                     "@type": "Organization",
                     "name": "DudeSpin",
-                    "description": "300% až 50 000 Kč + 150 FS"
+                    "description": "300 % bonusů až do výše 50 000 Kč + 150 volných točení"
                 }
             }
         ]
@@ -3123,7 +3044,7 @@ max-width: 70px;
                                                                 <div class="s-f577aa">
                                     <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
                                             <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-                                        </svg> Naposledy aktualizováno: 5 května 2026</span>
+                                        </svg> Naposledy aktualizováno: 8 května 2026</span>
                                                                             <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
                                                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
                                                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
@@ -3155,7 +3076,7 @@ max-width: 70px;
                     <div class="r-c876cb">
                                                     <img src="../img/8f5a0fac22ab64304ba7debee0f47e82.webp" alt="Logo" style="max-width: 280px; margin-bottom: 15px;    max-height: 150px;">
                                                 <p></p>
-                    </div>
+                                            </div>
                     <div class="r-c876cb">
                         <ul class="p-49c633">
                                                                                                                             <li>
